@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apache-asterixdb.iml" filepath="$PROJECT_DIR$/apache-asterixdb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-active/asterix-active.iml" filepath="$PROJECT_DIR$/asterix-active/asterix-active.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-algebra/asterix-algebra.iml" filepath="$PROJECT_DIR$/asterix-algebra/asterix-algebra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-app/asterix-app.iml" filepath="$PROJECT_DIR$/asterix-app/asterix-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-benchmark/asterix-benchmark.iml" filepath="$PROJECT_DIR$/asterix-benchmark/asterix-benchmark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-client-helper/asterix-client-helper.iml" filepath="$PROJECT_DIR$/asterix-client-helper/asterix-client-helper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-common/asterix-common.iml" filepath="$PROJECT_DIR$/asterix-common/asterix-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-coverage/asterix-coverage.iml" filepath="$PROJECT_DIR$/asterix-coverage/asterix-coverage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-dashboard/asterix-dashboard.iml" filepath="$PROJECT_DIR$/asterix-dashboard/asterix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-doc/asterix-doc.iml" filepath="$PROJECT_DIR$/asterix-doc/asterix-doc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-docker/asterix-docker.iml" filepath="$PROJECT_DIR$/asterix-docker/asterix-docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-maven-plugins/asterix-evaluator-generator-maven-plugin/asterix-evaluator-generator-maven-plugin.iml" filepath="$PROJECT_DIR$/asterix-maven-plugins/asterix-evaluator-generator-maven-plugin/asterix-evaluator-generator-maven-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-examples/asterix-examples.iml" filepath="$PROJECT_DIR$/asterix-examples/asterix-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-external-data/asterix-external-data.iml" filepath="$PROJECT_DIR$/asterix-external-data/asterix-external-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-fuzzyjoin/asterix-fuzzyjoin.iml" filepath="$PROJECT_DIR$/asterix-fuzzyjoin/asterix-fuzzyjoin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-geo/asterix-geo.iml" filepath="$PROJECT_DIR$/asterix-geo/asterix-geo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-maven-plugins/asterix-grammar-extension-maven-plugin/asterix-grammar-extension-maven-plugin.iml" filepath="$PROJECT_DIR$/asterix-maven-plugins/asterix-grammar-extension-maven-plugin/asterix-grammar-extension-maven-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-hivecompat/asterix-hivecompat.iml" filepath="$PROJECT_DIR$/asterix-hivecompat/asterix-hivecompat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-lang-aql/asterix-lang-aql.iml" filepath="$PROJECT_DIR$/asterix-lang-aql/asterix-lang-aql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-lang-common/asterix-lang-common.iml" filepath="$PROJECT_DIR$/asterix-lang-common/asterix-lang-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-lang-sqlpp/asterix-lang-sqlpp.iml" filepath="$PROJECT_DIR$/asterix-lang-sqlpp/asterix-lang-sqlpp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-license/asterix-license.iml" filepath="$PROJECT_DIR$/asterix-license/asterix-license.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-maven-plugins/asterix-maven-plugins.iml" filepath="$PROJECT_DIR$/asterix-maven-plugins/asterix-maven-plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-metadata/asterix-metadata.iml" filepath="$PROJECT_DIR$/asterix-metadata/asterix-metadata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-om/asterix-om.iml" filepath="$PROJECT_DIR$/asterix-om/asterix-om.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-replication/asterix-replication.iml" filepath="$PROJECT_DIR$/asterix-replication/asterix-replication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-runtime/asterix-runtime.iml" filepath="$PROJECT_DIR$/asterix-runtime/asterix-runtime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-server/asterix-server.iml" filepath="$PROJECT_DIR$/asterix-server/asterix-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-spidersilk/asterix-spidersilk.iml" filepath="$PROJECT_DIR$/asterix-spidersilk/asterix-spidersilk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-maven-plugins/asterix-test-datagenerator-maven-plugin/asterix-test-datagenerator-maven-plugin.iml" filepath="$PROJECT_DIR$/asterix-maven-plugins/asterix-test-datagenerator-maven-plugin/asterix-test-datagenerator-maven-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-test-framework/asterix-test-framework.iml" filepath="$PROJECT_DIR$/asterix-test-framework/asterix-test-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-tools/asterix-tools.iml" filepath="$PROJECT_DIR$/asterix-tools/asterix-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-transactions/asterix-transactions.iml" filepath="$PROJECT_DIR$/asterix-transactions/asterix-transactions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-maven-plugins/lexer-generator-maven-plugin/lexer-generator-maven-plugin.iml" filepath="$PROJECT_DIR$/asterix-maven-plugins/lexer-generator-maven-plugin/lexer-generator-maven-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asterix-maven-plugins/record-manager-generator-maven-plugin/record-manager-generator-maven-plugin.iml" filepath="$PROJECT_DIR$/asterix-maven-plugins/record-manager-generator-maven-plugin/record-manager-generator-maven-plugin.iml" />
+    </modules>
+  </component>
+</project>

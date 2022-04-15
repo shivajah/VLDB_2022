@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-active" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-algebra" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-benchmark" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-client-helper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-coverage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-doc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-docker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-examples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-external-data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-fuzzyjoin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-geo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-hivecompat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-lang-aql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-lang-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-lang-sqlpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-license" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-maven-plugins" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-maven-plugins/asterix-evaluator-generator-maven-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-maven-plugins/asterix-grammar-extension-maven-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-maven-plugins/asterix-test-datagenerator-maven-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-maven-plugins/lexer-generator-maven-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-maven-plugins/record-manager-generator-maven-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-metadata" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-om" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-replication" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-runtime" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-spidersilk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-test-framework" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-tools" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asterix-transactions" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,55 @@
+DataverseUse test
+Query:
+RecordConstructor [
+  (
+    LiteralExpr [STRING] [double1]
+    :
+    FunctionCall asterix.double@1[
+      LiteralExpr [STRING] [NaN]
+    ]
+  )
+  (
+    LiteralExpr [STRING] [double2]
+    :
+    FunctionCall asterix.double@1[
+      LiteralExpr [STRING] [INF]
+    ]
+  )
+  (
+    LiteralExpr [STRING] [double3]
+    :
+    FunctionCall asterix.double@1[
+      LiteralExpr [STRING] [-INF]
+    ]
+  )
+  (
+    LiteralExpr [STRING] [double4]
+    :
+    FunctionCall asterix.double@1[
+      LiteralExpr [STRING] [-80.20d]
+    ]
+  )
+  (
+    LiteralExpr [STRING] [double5]
+    :
+    FunctionCall asterix.double@1[
+      LiteralExpr [STRING] [-20.56e-30]
+    ]
+  )
+  (
+    LiteralExpr [STRING] [double6]
+    :
+    FunctionCall asterix.double@1[
+      LiteralExpr [STRING] [-20.56e-300]
+    ]
+  )
+  (
+    LiteralExpr [STRING] [double7]
+    :
+    FunctionCall asterix.double@1[
+      FunctionCall asterix.double@1[
+        LiteralExpr [STRING] [-20.56e-300]
+      ]
+    ]
+  )
+]

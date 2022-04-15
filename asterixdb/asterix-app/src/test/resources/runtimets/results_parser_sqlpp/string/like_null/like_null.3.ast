@@ -1,0 +1,22 @@
+DataverseUse test
+Query:
+RecordConstructor [
+  (
+    LiteralExpr [STRING] [field1]
+    :
+    OperatorExpr [
+      LiteralExpr [STRING] [A8BBB]
+      like
+      LiteralExpr [NULL]
+    ]
+  )
+  (
+    LiteralExpr [STRING] [field2]
+    :
+    OperatorExpr [
+      LiteralExpr [NULL]
+      like
+      LiteralExpr [STRING] [_6%]
+    ]
+  )
+]

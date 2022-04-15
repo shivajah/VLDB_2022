@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplementalDataModels>
+  <supplement>
+    <project>
+      <groupId>stax</groupId>
+      <artifactId>stax</artifactId>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+      </licenses>
+      <properties>
+        <verifiedVersions>1.1.1-dev,1.2.0</verifiedVersions>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <licenses>
+        <license>
+          <name>an MIT-style license</name>
+          <url>http://www.slf4j.org/license.html</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <licenses>
+        <license>
+          <name>an MIT-style license</name>
+          <url>https://raw.githubusercontent.com/qos-ch/slf4j/v_1.7.25/slf4j-api/LICENSE.txt</url>
+        </license>
+      </licenses>
+      <properties>
+        <license.ignoreMissingEmbeddedNotice>1.7.25</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreMissingEmbeddedLicense>1.7.25</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreLicenseOverride>1.7.25</license.ignoreLicenseOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <licenses>
+        <license>
+          <name>an MIT-style license</name>
+          <url>http://www.slf4j.org/license.html</url>
+        </license>
+      </licenses>
+      <!-- not yet used
+      <properties>
+        <verifiedVersions>1.6.1,1.7.5</verifiedVersions>
+      </properties>
+      -->
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>jline</groupId>
+      <artifactId>jline</artifactId>
+      <name>JLine</name>
+      <url>http://jline.sourceforge.net</url>
+      <organization>
+        <name>JLine</name>
+        <url>http://jline.sourceforge.net</url>
+      </organization>
+      <licenses>
+        <license>
+          <name>a BSD 3-clause license</name>
+          <url>http://jline.sourceforge.net/license.html</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>com.jcraft</groupId>
+      <artifactId>jsch</artifactId>
+      <licenses>
+        <license>
+          <name>a BSD 3-clause license</name>
+          <url>http://www.jcraft.com/jsch/LICENSE.txt</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>aopalliance</groupId>
+      <artifactId>aopalliance</artifactId>
+      <name>XML Pull Parsing API</name>
+      <organization>
+        <name>AOP Alliance</name>
+        <url>http://aopalliance.sourceforge.net/</url>
+      </organization>
+      <licenses>
+        <license>
+          <name>Public Domain</name>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <name>Java Servlet API</name>
+      <url>https://jcp.org/aboutJava/communityprocess/mrel/jsr154/index.html</url>
+      <organization>
+        <name>Oracle Corporation</name>
+        <url>http://www.oracle.com/</url>
+      </organization>
+      <licenses>
+        <license>
+          <name>COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0</name>
+          <url>http://www.sun.com/cddl/cddl.html</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>jdom</groupId>
+      <artifactId>jdom</artifactId>
+      <licenses>
+        <license>
+          <name>an ASL v1.1-style license</name>
+          <url>licenses/jdom.txt</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>rome</groupId>
+      <artifactId>rome</artifactId>
+      <name>ROME</name>
+      <organization>
+        <name>The Apache Software Foundation</name>
+        <url>http://www.apache.org/</url>
+      </organization>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-all</artifactId>
+      <properties>
+        <!-- netty is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+        <license.ignoreMissingEmbeddedLicense>4.1.25.Final,4.1.32.Final,4.1.42.Final,4.1.48.Final</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>4.1.25.Final,4.1.32.Final,4.1.42.Final,4.1.48.Final</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>4.1.25.Final,4.1.32.Final,4.1.42.Final,4.1.48.Final</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <properties>
+        <!-- guava is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+        <!-- see https://github.com/google/guava/blob/v18.0/COPYING -->
+        <!-- see https://github.com/google/guava/tree/v28.[012]/COPYING -->
+        <license.ignoreMissingEmbeddedNotice>18.0,28.0-jre,28.1-jre,28.2-jre</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreMissingEmbeddedLicense>18.0,28.0-jre,28.1-jre,28.2-jre</license.ignoreMissingEmbeddedLicense>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>com.google.guava</groupId>
+      <artifactId>failureaccess</artifactId>
+      <properties>
+        <!-- guava is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+        <!-- see https://github.com/google/guava/tree/v28.0/ -->
+        <license.ignoreMissingEmbeddedLicense>1.0.1</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>1.0.1</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>com.google.errorprone</groupId>
+      <artifactId>error_prone_annotations</artifactId>
+      <!-- see https://github.com/google/error-prone/tree/v2.3.[24]/ -->
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.3.2,2.3.4</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.3.2,2.3.4</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>org.ini4j</groupId>
+      <artifactId>ini4j</artifactId>
+      <properties>
+        <!-- ini4j is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+        <license.ignoreMissingEmbeddedNotice>0.5.4</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreMissingEmbeddedLicense>0.5.4</license.ignoreMissingEmbeddedLicense>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>args4j</groupId>
+      <artifactId>args4j</artifactId>
+      <properties>
+        <!-- args4j does not provide an embedded NOTICE file -->
+        <license.ignoreMissingEmbeddedNotice>2.33</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <properties>
+        <!-- jackson-annotations does not provide an embedded NOTICE file -->
+        <license.ignoreMissingEmbeddedNotice>2.8.4,2.9.7,2.9.10,2.10.0,2.10.3</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>com.esri.geometry</groupId>
+      <artifactId>esri-geometry-api</artifactId>
+      <properties>
+        <!-- esri is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+        <license.ignoreMissingEmbeddedLicense>2.0.0,2.2.3</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.0.0,2.2.3</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>it.unimi.dsi</groupId>
+      <artifactId>fastutil</artifactId>
+      <properties>
+        <!-- fastutil is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+        <!-- see https://github.com/vigna/fastutil/blob/8.1.1/LICENSE-2.0 -->
+        <!-- see https://github.com/vigna/fastutil/blob/8.2.2/LICENSE-2.0 -->
+        <!-- see https://github.com/vigna/fastutil/blob/8.3.0/LICENSE-2.0 -->
+        <license.ignoreMissingEmbeddedLicense>8.1.1,8.2.2,8.3.0</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>8.1.1,8.2.2,8.3.0</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>org.xerial.snappy</groupId>
+      <artifactId>snappy-java</artifactId>
+      <properties>
+        <!-- snappy-java is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+        <!-- license override not needed, ALv2 is specified in its pom.xml -->
+        <!-- see https://github.com/xerial/snappy-java/blob/1.1.7.1/LICENSE -->
+        <license.ignoreMissingEmbeddedLicense>1.1.7.1</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>1.1.7.1</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+
+  <!-- AWS SDK begin -->
+  <!-- software.amazon.awssdk is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+  <!-- license override not needed, ALv2 is specified in its pom.xml -->
+  <!-- see https://github.com/aws/aws-sdk-java-v2/blob/master/LICENSE.txt -->
+  <supplement>
+    <project>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>sdk-core</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.10.83</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.10.83</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>2.10.83</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>aws-core</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.10.83</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.10.83</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>2.10.83</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>s3</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.10.83</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.10.83</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>2.10.83</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>auth</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.10.83</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.10.83</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>2.10.83</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>protocol-core</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.10.83</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.10.83</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>2.10.83</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>regions</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.10.83</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.10.83</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>2.10.83</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>arns</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.10.83</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.10.83</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>2.10.83</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>netty-nio-client</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.10.83</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.10.83</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>2.10.83</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>aws-xml-protocol</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.10.83</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.10.83</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>2.10.83</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>annotations</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.10.83</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.10.83</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>2.10.83</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>apache-client</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.10.83</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.10.83</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>2.10.83</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>utils</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.10.83</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.10.83</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>2.10.83</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>http-client-spi</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.10.83</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.10.83</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>2.10.83</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>aws-query-protocol</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.10.83</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.10.83</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>2.10.83</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>profiles</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.10.83</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.10.83</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>2.10.83</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+
+  <!-- software.amazon.eventstream is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+  <!-- license override not needed, ALv2 is specified in its pom.xml -->
+  <!-- see https://github.com/awslabs/aws-eventstream-java -->
+  <supplement>
+    <project>
+      <groupId>software.amazon.eventstream</groupId>
+      <artifactId>eventstream</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>1.0.1</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>1.0.1</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>1.0.1</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <!-- AWS SDK end -->
+
+  <!-- com.typesafe.netty is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+  <!-- license override not needed, ALv2 is specified in its pom.xml -->
+  <!-- see https://github.com/playframework/netty-reactive-streams -->
+  <supplement>
+    <project>
+      <groupId>com.typesafe.netty</groupId>
+      <artifactId>netty-reactive-streams</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.0.4</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.0.4</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+
+  <supplement>
+    <project>
+      <groupId>com.typesafe.netty</groupId>
+      <artifactId>netty-reactive-streams-http</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.0.4</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.0.4</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+
+  <!-- org.reactivestreams does not contain any embedded LICENSE or NOTICE file -->
+  <!-- see https://github.com/reactive-streams/reactive-streams-jvm -->
+  <supplement>
+    <project>
+      <groupId>org.reactivestreams</groupId>
+      <artifactId>reactive-streams</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>1.0.2</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>1.0.2</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreLicenseOverride>1.0.2</license.ignoreLicenseOverride>
+        <license.ignoreNoticeOverride>1.0.2</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+
+  <supplement>
+    <project>
+      <groupId>org.msgpack</groupId>
+      <artifactId>msgpack-core</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedNotice>0.8.20</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreMissingEmbeddedLicense>0.8.20</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreNoticeOverride>0.8.20</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+
+  <!--  jbcrypt is under an ISC-style license with no NOTICE -->
+  <!--  see the URL noted in the supplement -->
+  <supplement>
+    <project>
+      <groupId>org.mindrot</groupId>
+      <artifactId>jbcrypt</artifactId>
+      <licenses>
+        <license>
+          <name>ISC License</name>
+          <url>http://www.mindrot.org/files/jBCrypt/LICENSE</url>
+        </license>
+      </licenses>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>0.4</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>0.4</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreLicenseOverride>0.4</license.ignoreLicenseOverride>
+      </properties>
+    </project>
+  </supplement>
+
+  <!-- Azure SDK for Java start -->
+  <!-- com.azure does not contain any embedded LICENSE or NOTICE file -->
+  <!-- see https://github.com/Azure/azure-sdk-for-java -->
+  <supplement>
+    <project>
+      <groupId>com.azure</groupId>
+      <artifactId>azure-storage-blob</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>12.6.0</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>12.6.0</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreLicenseOverride>12.6.0</license.ignoreLicenseOverride>
+        <license.ignoreNoticeOverride>12.6.0</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+
+  <supplement>
+    <project>
+      <groupId>com.azure</groupId>
+      <artifactId>azure-storage-common</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>12.6.0</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>12.6.0</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreLicenseOverride>12.6.0</license.ignoreLicenseOverride>
+        <license.ignoreNoticeOverride>12.6.0</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+
+  <supplement>
+    <project>
+      <groupId>com.azure</groupId>
+      <artifactId>azure-core</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>1.4.0</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>1.4.0</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreLicenseOverride>1.4.0</license.ignoreLicenseOverride>
+        <license.ignoreNoticeOverride>1.4.0</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+
+  <supplement>
+    <project>
+      <groupId>com.azure</groupId>
+      <artifactId>azure-core-http-netty</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>1.5.0</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>1.5.0</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreLicenseOverride>1.5.0</license.ignoreLicenseOverride>
+        <license.ignoreNoticeOverride>1.5.0</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <!-- Azure SDK for Java end -->
+
+  <!-- jackson-datatype-jsr contains embedded license but has no NOTICE -->
+  <!-- See https://github.com/FasterXML/jackson-modules-java8 -->
+  <supplement>
+    <project>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jsr310</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedNotice>2.10.1</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+
+  <!-- com.fasterxml.woodstox contains embedded license but has no NOTICE -->
+  <!-- See https://github.com/FasterXML/woodstox -->
+  <supplement>
+    <project>
+      <groupId>com.fasterxml.woodstox</groupId>
+      <artifactId>woodstox-core</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedNotice>6.0.2</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+
+  <!-- org.codehaus.woodstox contains embedded license but has no NOTICE -->
+  <!-- See https://github.com/FasterXML/stax2-api -->
+  <supplement>
+    <project>
+      <groupId>org.codehaus.woodstox</groupId>
+      <artifactId>stax2-api</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedNotice>4.2</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+
+  <supplement>
+    <project>
+      <groupId>io.projectreactor</groupId>
+      <artifactId>reactor-core</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>3.3.3.RELEASE</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>3.3.3.RELEASE</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+
+  <supplement>
+    <project>
+      <groupId>io.projectreactor.netty</groupId>
+      <artifactId>reactor-netty</artifactId>
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>0.9.5.RELEASE</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>0.9.5.RELEASE</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+</supplementalDataModels>

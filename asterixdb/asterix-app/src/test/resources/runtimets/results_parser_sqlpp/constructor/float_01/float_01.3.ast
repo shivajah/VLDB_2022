@@ -1,0 +1,48 @@
+DataverseUse test
+Query:
+RecordConstructor [
+  (
+    LiteralExpr [STRING] [float1]
+    :
+    FunctionCall asterix.float@1[
+      LiteralExpr [STRING] [NaN]
+    ]
+  )
+  (
+    LiteralExpr [STRING] [float2]
+    :
+    FunctionCall asterix.float@1[
+      LiteralExpr [STRING] [INF]
+    ]
+  )
+  (
+    LiteralExpr [STRING] [float3]
+    :
+    FunctionCall asterix.float@1[
+      LiteralExpr [STRING] [-INF]
+    ]
+  )
+  (
+    LiteralExpr [STRING] [float4]
+    :
+    FunctionCall asterix.float@1[
+      LiteralExpr [STRING] [-80.20]
+    ]
+  )
+  (
+    LiteralExpr [STRING] [float5]
+    :
+    FunctionCall asterix.float@1[
+      LiteralExpr [STRING] [-20.56e-30]
+    ]
+  )
+  (
+    LiteralExpr [STRING] [float6]
+    :
+    FunctionCall asterix.float@1[
+      FunctionCall asterix.float@1[
+        LiteralExpr [STRING] [-20.56e-30]
+      ]
+    ]
+  )
+]

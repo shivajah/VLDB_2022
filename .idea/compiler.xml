@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="textclient" />
+        <module name="hyracks-storage-am-lsm-common-test" />
+        <module name="asterix-grammar-extension-maven-plugin" />
+        <module name="asterix-replication" />
+        <module name="asterix-test-framework" />
+        <module name="asterix-dashboard" />
+        <module name="tpchclient" />
+        <module name="hyracks-control-nc" />
+        <module name="asterix-active" />
+        <module name="asterix-lang-common" />
+        <module name="hyracks-dataflow-common" />
+        <module name="asterix-spidersilk" />
+        <module name="asterix-app" />
+        <module name="hyracks-fullstack-license" />
+        <module name="hyracks-nc-service" />
+        <module name="hyracks-virtualcluster-maven-plugin" />
+        <module name="hyracks-comm" />
+        <module name="hyracks-storage-am-lsm-rtree" />
+        <module name="hyracks-http" />
+        <module name="textserver" />
+        <module name="hyracks-dataflow-common-test" />
+        <module name="asterix-om" />
+        <module name="btreehelper" />
+        <module name="hyracks-util" />
+        <module name="hyracks-server" />
+        <module name="hyracks-api" />
+        <module name="hyracks-storage-common-test" />
+        <module name="hyracks-ipc" />
+        <module name="hyracks-net" />
+        <module name="hyracks-storage-am-lsm-btree-test" />
+        <module name="tpchserver" />
+        <module name="hyracks-client" />
+        <module name="hyracks-dist" />
+        <module name="asterix-test-datagenerator-maven-plugin" />
+        <module name="hyracks-test-support" />
+        <module name="algebricks-tests" />
+        <module name="hyracks-storage-am-common" />
+        <module name="btreeserver" />
+        <module name="hyracks-integration-tests" />
+        <module name="hyracks-control-common" />
+        <module name="hyracks-storage-am-lsm-rtree-test" />
+        <module name="asterix-lang-aql" />
+        <module name="hyracks-dataflow-std" />
+        <module name="lexer-generator-maven-plugin" />
+        <module name="algebricks-common" />
+        <module name="hyracks-storage-am-bloomfilter-test" />
+        <module name="asterix-server" />
+        <module name="asterix-geo" />
+        <module name="asterix-client-helper" />
+        <module name="hyracks-data-std" />
+        <module name="asterix-tools" />
+        <module name="asterix-transactions" />
+        <module name="algebricks-compiler" />
+        <module name="asterix-algebra" />
+        <module name="hyracks-storage-am-lsm-invertedindex" />
+        <module name="btreeclient" />
+        <module name="record-manager-generator-maven-plugin" />
+        <module name="asterix-external-data" />
+        <module name="algebricks-runtime" />
+        <module name="asterix-common" />
+        <module name="hyracks-storage-am-bloomfilter" />
+        <module name="asterix-fuzzyjoin" />
+        <module name="algebricks-data" />
+        <module name="hyracks-hdfs" />
+        <module name="algebricks-core" />
+        <module name="asterix-license" />
+        <module name="asterix-runtime" />
+        <module name="hyracks-documentation" />
+        <module name="hyracks-storage-am-btree-test" />
+        <module name="hyracks-storage-am-btree" />
+        <module name="hyracks-storage-am-lsm-common" />
+        <module name="hyracks-storage-am-lsm-btree" />
+        <module name="asterix-lang-sqlpp" />
+        <module name="algebricks-rewriter" />
+        <module name="asterix-doc" />
+        <module name="asterix-metadata" />
+        <module name="hyracks-storage-am-rtree" />
+        <module name="hyracks-storage-am-lsm-invertedindex-test" />
+        <module name="hyracks-storage-common" />
+        <module name="asterix-docker" />
+        <module name="license-automation-plugin" />
+        <module name="hyracks-storage-am-rtree-test" />
+        <module name="texthelper" />
+        <module name="asterix-benchmark" />
+        <module name="hyracks-shutdown-test" />
+        <module name="hyracks-control-cc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="algebricks" target="11" />
+      <module name="algebricks-common" target="11" />
+      <module name="algebricks-compiler" target="11" />
+      <module name="algebricks-core" target="11" />
+      <module name="algebricks-data" target="11" />
+      <module name="algebricks-rewriter" target="11" />
+      <module name="algebricks-runtime" target="11" />
+      <module name="algebricks-tests" target="11" />
+      <module name="apache-asterixdb" target="11" />
+      <module name="apache-asterixdb-fullstack" target="1.6" />
+      <module name="apache-hyracks" target="11" />
+      <module name="asterix-active" target="11" />
+      <module name="asterix-algebra" target="11" />
+      <module name="asterix-app" target="11" />
+      <module name="asterix-benchmark" target="11" />
+      <module name="asterix-client-helper" target="11" />
+      <module name="asterix-common" target="11" />
+      <module name="asterix-coverage" target="11" />
+      <module name="asterix-dashboard" target="11" />
+      <module name="asterix-doc" target="11" />
+      <module name="asterix-docker" target="11" />
+      <module name="asterix-examples" target="11" />
+      <module name="asterix-external-data" target="11" />
+      <module name="asterix-fuzzyjoin" target="11" />
+      <module name="asterix-geo" target="11" />
+      <module name="asterix-grammar-extension-maven-plugin" target="11" />
+      <module name="asterix-lang-aql" target="11" />
+      <module name="asterix-lang-common" target="11" />
+      <module name="asterix-lang-sqlpp" target="11" />
+      <module name="asterix-license" target="11" />
+      <module name="asterix-maven-plugins" target="11" />
+      <module name="asterix-metadata" target="11" />
+      <module name="asterix-om" target="11" />
+      <module name="asterix-replication" target="11" />
+      <module name="asterix-runtime" target="11" />
+      <module name="asterix-server" target="11" />
+      <module name="asterix-spidersilk" target="11" />
+      <module name="asterix-test-datagenerator-maven-plugin" target="11" />
+      <module name="asterix-test-framework" target="11" />
+      <module name="asterix-tools" target="11" />
+      <module name="asterix-transactions" target="11" />
+      <module name="btree-example" target="11" />
+      <module name="btreeclient" target="11" />
+      <module name="btreehelper" target="11" />
+      <module name="btreeserver" target="11" />
+      <module name="hyracks" target="11" />
+      <module name="hyracks-api" target="11" />
+      <module name="hyracks-client" target="11" />
+      <module name="hyracks-comm" target="11" />
+      <module name="hyracks-control" target="11" />
+      <module name="hyracks-control-cc" target="11" />
+      <module name="hyracks-control-common" target="11" />
+      <module name="hyracks-control-nc" target="11" />
+      <module name="hyracks-data" target="11" />
+      <module name="hyracks-data-std" target="11" />
+      <module name="hyracks-dataflow-common" target="11" />
+      <module name="hyracks-dataflow-common-test" target="11" />
+      <module name="hyracks-dataflow-std" target="11" />
+      <module name="hyracks-dist" target="11" />
+      <module name="hyracks-documentation" target="11" />
+      <module name="hyracks-examples" target="11" />
+      <module name="hyracks-fullstack-license" target="11" />
+      <module name="hyracks-hdfs" target="11" />
+      <module name="hyracks-http" target="11" />
+      <module name="hyracks-integration-tests" target="11" />
+      <module name="hyracks-ipc" target="11" />
+      <module name="hyracks-maven-plugins" target="11" />
+      <module name="hyracks-nc-service" target="11" />
+      <module name="hyracks-net" target="11" />
+      <module name="hyracks-server" target="11" />
+      <module name="hyracks-shutdown-test" target="11" />
+      <module name="hyracks-storage-am-bloomfilter" target="11" />
+      <module name="hyracks-storage-am-bloomfilter-test" target="11" />
+      <module name="hyracks-storage-am-btree" target="11" />
+      <module name="hyracks-storage-am-btree-test" target="11" />
+      <module name="hyracks-storage-am-common" target="11" />
+      <module name="hyracks-storage-am-lsm-btree" target="11" />
+      <module name="hyracks-storage-am-lsm-btree-test" target="11" />
+      <module name="hyracks-storage-am-lsm-common" target="11" />
+      <module name="hyracks-storage-am-lsm-common-test" target="11" />
+      <module name="hyracks-storage-am-lsm-invertedindex" target="11" />
+      <module name="hyracks-storage-am-lsm-invertedindex-test" target="11" />
+      <module name="hyracks-storage-am-lsm-rtree" target="11" />
+      <module name="hyracks-storage-am-lsm-rtree-test" target="11" />
+      <module name="hyracks-storage-am-rtree" target="11" />
+      <module name="hyracks-storage-am-rtree-test" target="11" />
+      <module name="hyracks-storage-common" target="11" />
+      <module name="hyracks-storage-common-test" target="11" />
+      <module name="hyracks-test-support" target="11" />
+      <module name="hyracks-tests" target="11" />
+      <module name="hyracks-util" target="11" />
+      <module name="hyracks-virtualcluster-maven-plugin" target="11" />
+      <module name="lexer-generator-maven-plugin" target="11" />
+      <module name="license-automation-plugin" target="11" />
+      <module name="record-manager-generator-maven-plugin" target="11" />
+      <module name="text-example" target="11" />
+      <module name="textclient" target="11" />
+      <module name="texthelper" target="11" />
+      <module name="textserver" target="11" />
+      <module name="tpch-example" target="11" />
+      <module name="tpchclient" target="11" />
+      <module name="tpchserver" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="algebricks-common" options="-Xlint:all" />
+      <module name="algebricks-compiler" options="-Xlint:all" />
+      <module name="algebricks-core" options="-Xlint:all" />
+      <module name="algebricks-data" options="-Xlint:all" />
+      <module name="algebricks-rewriter" options="-Xlint:all" />
+      <module name="algebricks-runtime" options="-Xlint:all" />
+      <module name="algebricks-tests" options="-Xlint:all" />
+      <module name="asterix-active" options="-Xlint:all" />
+      <module name="asterix-algebra" options="-Xlint:all" />
+      <module name="asterix-app" options="-Xlint:all" />
+      <module name="asterix-benchmark" options="-Xlint:all" />
+      <module name="asterix-client-helper" options="-Xlint:all" />
+      <module name="asterix-common" options="-Xlint:all" />
+      <module name="asterix-dashboard" options="-Xlint:all" />
+      <module name="asterix-doc" options="-Xlint:all" />
+      <module name="asterix-docker" options="-Xlint:all" />
+      <module name="asterix-external-data" options="-Xlint:all" />
+      <module name="asterix-fuzzyjoin" options="-Xlint:all" />
+      <module name="asterix-geo" options="-Xlint:all" />
+      <module name="asterix-grammar-extension-maven-plugin" options="-Xlint:all" />
+      <module name="asterix-lang-aql" options="-Xlint:all" />
+      <module name="asterix-lang-common" options="-Xlint:all" />
+      <module name="asterix-lang-sqlpp" options="-Xlint:all" />
+      <module name="asterix-license" options="-Xlint:all" />
+      <module name="asterix-metadata" options="-Xlint:all" />
+      <module name="asterix-om" options="-Xlint:all" />
+      <module name="asterix-replication" options="-Xlint:all" />
+      <module name="asterix-runtime" options="-Xlint:all" />
+      <module name="asterix-server" options="-Xlint:all" />
+      <module name="asterix-spidersilk" options="-Xlint:all" />
+      <module name="asterix-test-datagenerator-maven-plugin" options="-Xlint:all" />
+      <module name="asterix-test-framework" options="-Xlint:all" />
+      <module name="asterix-tools" options="-Xlint:all" />
+      <module name="asterix-transactions" options="-Xlint:all" />
+      <module name="btreeclient" options="-Xlint:all" />
+      <module name="btreehelper" options="-Xlint:all" />
+      <module name="btreeserver" options="-Xlint:all" />
+      <module name="hyracks-api" options="-Xlint:all" />
+      <module name="hyracks-client" options="-Xlint:all" />
+      <module name="hyracks-comm" options="-Xlint:all" />
+      <module name="hyracks-control-cc" options="-Xlint:all" />
+      <module name="hyracks-control-common" options="-Xlint:all" />
+      <module name="hyracks-control-nc" options="-Xlint:all" />
+      <module name="hyracks-data-std" options="-Xlint:all" />
+      <module name="hyracks-dataflow-common" options="-Xlint:all" />
+      <module name="hyracks-dataflow-common-test" options="-Xlint:all" />
+      <module name="hyracks-dataflow-std" options="-Xlint:all" />
+      <module name="hyracks-dist" options="-Xlint:all" />
+      <module name="hyracks-documentation" options="-Xlint:all" />
+      <module name="hyracks-fullstack-license" options="-Xlint:all" />
+      <module name="hyracks-hdfs" options="-Xlint:all" />
+      <module name="hyracks-http" options="-Xlint:all" />
+      <module name="hyracks-integration-tests" options="-Xlint:all" />
+      <module name="hyracks-ipc" options="-Xlint:all" />
+      <module name="hyracks-nc-service" options="-Xlint:all" />
+      <module name="hyracks-net" options="-Xlint:all" />
+      <module name="hyracks-server" options="-Xlint:all" />
+      <module name="hyracks-shutdown-test" options="-Xlint:all" />
+      <module name="hyracks-storage-am-bloomfilter" options="-Xlint:all" />
+      <module name="hyracks-storage-am-bloomfilter-test" options="-Xlint:all" />
+      <module name="hyracks-storage-am-btree" options="-Xlint:all" />
+      <module name="hyracks-storage-am-btree-test" options="-Xlint:all" />
+      <module name="hyracks-storage-am-common" options="-Xlint:all" />
+      <module name="hyracks-storage-am-lsm-btree" options="-Xlint:all" />
+      <module name="hyracks-storage-am-lsm-btree-test" options="-Xlint:all" />
+      <module name="hyracks-storage-am-lsm-common" options="-Xlint:all" />
+      <module name="hyracks-storage-am-lsm-common-test" options="-Xlint:all" />
+      <module name="hyracks-storage-am-lsm-invertedindex" options="-Xlint:all" />
+      <module name="hyracks-storage-am-lsm-invertedindex-test" options="-Xlint:all" />
+      <module name="hyracks-storage-am-lsm-rtree" options="-Xlint:all" />
+      <module name="hyracks-storage-am-lsm-rtree-test" options="-Xlint:all" />
+      <module name="hyracks-storage-am-rtree" options="-Xlint:all" />
+      <module name="hyracks-storage-am-rtree-test" options="-Xlint:all" />
+      <module name="hyracks-storage-common" options="-Xlint:all" />
+      <module name="hyracks-storage-common-test" options="-Xlint:all" />
+      <module name="hyracks-test-support" options="-Xlint:all" />
+      <module name="hyracks-util" options="-Xlint:all" />
+      <module name="hyracks-virtualcluster-maven-plugin" options="-Xlint:all" />
+      <module name="lexer-generator-maven-plugin" options="-Xlint:all" />
+      <module name="license-automation-plugin" options="-Xlint:all" />
+      <module name="record-manager-generator-maven-plugin" options="-Xlint:all" />
+      <module name="textclient" options="-Xlint:all" />
+      <module name="texthelper" options="-Xlint:all" />
+      <module name="textserver" options="-Xlint:all" />
+      <module name="tpchclient" options="-Xlint:all" />
+      <module name="tpchserver" options="-Xlint:all" />
+    </option>
+  </component>
+</project>

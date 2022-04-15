@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="asterix-active" />
+        <module name="asterix-algebra" />
+        <module name="asterix-app" />
+        <module name="asterix-benchmark" />
+        <module name="asterix-client-helper" />
+        <module name="asterix-common" />
+        <module name="asterix-dashboard" />
+        <module name="asterix-doc" />
+        <module name="asterix-docker" />
+        <module name="asterix-evaluator-generator-maven-plugin" />
+        <module name="asterix-external-data" />
+        <module name="asterix-fuzzyjoin" />
+        <module name="asterix-geo" />
+        <module name="asterix-grammar-extension-maven-plugin" />
+        <module name="asterix-hivecompat" />
+        <module name="asterix-lang-aql" />
+        <module name="asterix-lang-common" />
+        <module name="asterix-lang-sqlpp" />
+        <module name="asterix-license" />
+        <module name="asterix-metadata" />
+        <module name="asterix-om" />
+        <module name="asterix-replication" />
+        <module name="asterix-runtime" />
+        <module name="asterix-server" />
+        <module name="asterix-spidersilk" />
+        <module name="asterix-test-datagenerator-maven-plugin" />
+        <module name="asterix-test-framework" />
+        <module name="asterix-tools" />
+        <module name="asterix-transactions" />
+        <module name="lexer-generator-maven-plugin" />
+        <module name="record-manager-generator-maven-plugin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="apache-asterixdb" target="8" />
+      <module name="asterix-active" target="8" />
+      <module name="asterix-algebra" target="8" />
+      <module name="asterix-app" target="8" />
+      <module name="asterix-benchmark" target="8" />
+      <module name="asterix-client-helper" target="8" />
+      <module name="asterix-common" target="8" />
+      <module name="asterix-coverage" target="8" />
+      <module name="asterix-dashboard" target="8" />
+      <module name="asterix-doc" target="8" />
+      <module name="asterix-docker" target="8" />
+      <module name="asterix-evaluator-generator-maven-plugin" target="8" />
+      <module name="asterix-examples" target="8" />
+      <module name="asterix-external-data" target="8" />
+      <module name="asterix-fuzzyjoin" target="8" />
+      <module name="asterix-geo" target="8" />
+      <module name="asterix-grammar-extension-maven-plugin" target="8" />
+      <module name="asterix-hivecompat" target="8" />
+      <module name="asterix-lang-aql" target="8" />
+      <module name="asterix-lang-common" target="8" />
+      <module name="asterix-lang-sqlpp" target="8" />
+      <module name="asterix-license" target="8" />
+      <module name="asterix-maven-plugins" target="8" />
+      <module name="asterix-metadata" target="8" />
+      <module name="asterix-om" target="8" />
+      <module name="asterix-replication" target="8" />
+      <module name="asterix-runtime" target="8" />
+      <module name="asterix-server" target="8" />
+      <module name="asterix-spidersilk" target="8" />
+      <module name="asterix-test-datagenerator-maven-plugin" target="8" />
+      <module name="asterix-test-framework" target="8" />
+      <module name="asterix-tools" target="8" />
+      <module name="asterix-transactions" target="8" />
+      <module name="lexer-generator-maven-plugin" target="8" />
+      <module name="record-manager-generator-maven-plugin" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

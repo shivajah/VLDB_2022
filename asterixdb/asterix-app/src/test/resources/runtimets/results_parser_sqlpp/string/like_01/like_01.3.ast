@@ -1,0 +1,26 @@
+DataverseUse test
+Query:
+SELECT ELEMENT [
+OrderedListConstructor [
+  OperatorExpr [
+    LiteralExpr [STRING] [A6BBB]
+    like
+    LiteralExpr [STRING] [_6%]
+  ]
+  OperatorExpr [
+    LiteralExpr [STRING] [A8BBB]
+    like
+    LiteralExpr [STRING] [_6%]
+  ]
+  OperatorExpr [
+    LiteralExpr [STRING] [+0300]
+    like
+    LiteralExpr [STRING] [+03%]
+  ]
+  OperatorExpr [
+    LiteralExpr [STRING] [?0300]
+    like
+    LiteralExpr [STRING] [?03%]
+  ]
+]
+]

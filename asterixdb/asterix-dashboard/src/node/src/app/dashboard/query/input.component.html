@@ -1,0 +1,69 @@
+<!--/*
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/-->
+<mat-expansion-panel class="card" hideToggle [expanded]="true">
+    <mat-expansion-panel-header class="header" >
+        <mat-panel-title>
+            <mat-panel-title>SQL++ INPUT ({{currentQuery+1}}/{{preparedQueryCount}})
+            </mat-panel-title>
+            <mat-panel-description></mat-panel-description>
+            <mat-spinner *ngIf="querySpinnerVisible" [color]="blue" [diameter]="15" class="spinner"></mat-spinner>
+        </mat-panel-title>
+    </mat-expansion-panel-header>
+    <mat-panel-description class="contentarea">
+        <div class='options'>
+            <div class='dataverses'>
+                <div class='d1'>
+                    <mat-form-field>
+                        <mat-select placeholder="USE DATAVERSE" [(ngModel)]="selected" (selectionChange)="dataverseSelected()">
+                        <mat-option value='None'>None</mat-option>
+                        <mat-option *ngFor="let dataverse of dataverses" [value]="dataverse.DataverseName">
+                            {{dataverse.DataverseName}}
+                        </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class='d1'>
+                    <mat-form-field>
+                        <mat-select placeholder="PLAN FORMAT" [(ngModel)]="formatOptions">
+                            <mat-option value="JSON">JSON</mat-option>
+                            <mat-option value="STRING">STRING</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class='d1'>
+                    <mat-form-field class='sql-history'>
+                        <mat-select placeholder="SQL++ HISTORY" [(ngModel)]="historyStringSelected" (selectionChange)="historySelected()">
+                        <mat-option *ngFor="let query of history" [value]="query">{{query}}</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+        </div>
+        <div class="codemirror-container">
+            <textarea class="code" #editor></textarea>
+        </div>
+    </mat-panel-description>
+    <div class="message">
+        <span *ngIf="querySuccess" class="metrics">{{metricsString}}</span>
+        <span *ngIf="queryError" class="queryErrorMessage">{{queryErrorMessageString}}</span>
+    </div>
+    <mat-action-row>
+        <div class="space"></div>
+        <button mat-button class='input-button' (click)="onClickNew()" matTooltip="New Query Input">NEW</button>
+        <button mat-button class='input-button' (click)="onClickClear()" matTooltip="Clear Query Input">CLEAR</button>
+        <button mat-button class='input-button run' (click)="onClickRun()" matTooltip="Execute Query Input">RUN</button>
+        <button mat-button class='input-button' (click)="onClickPrevious()" [disabled]="checkPrevious()" matTooltip="Previous Query Input">PREVIOUS</button>
+        <button mat-button class='input-button' (click)="onClickNext()" [disabled]="checkNext()" matTooltip="Next Query Input">NEXT</button>
+    </mat-action-row>
+</mat-expansion-panel>

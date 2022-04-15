@@ -1,0 +1,27 @@
+DataverseUse test
+Query:
+RecordConstructor [
+  (
+    LiteralExpr [STRING] [boolean1]
+    :
+    FunctionCall asterix.boolean@1[
+      LiteralExpr [STRING] [true]
+    ]
+  )
+  (
+    LiteralExpr [STRING] [boolean2]
+    :
+    FunctionCall asterix.boolean@1[
+      LiteralExpr [STRING] [false]
+    ]
+  )
+  (
+    LiteralExpr [STRING] [boolean3]
+    :
+    FunctionCall asterix.boolean@1[
+      FunctionCall asterix.boolean@1[
+        LiteralExpr [STRING] [false]
+      ]
+    ]
+  )
+]
