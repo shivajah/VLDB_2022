@@ -42,7 +42,91 @@ NEXTFIT
 The following hint can be used for enabling Grow-Steal, otherwise No Grow-No Steal will be used by default:
  GrowSteal
  
+ ## How to reproduce the experiments
+ In this section we explain how to reproduce the results for the experiments included in the paper.
  
+ 
+ ### Start AsterixDB
+ $ cd ~/apache-asterixdb-0.9.8-SNAPSHOT/opt/ansible/bin
+$ ./deploy.sh
+ $ ./start.sh
+ 
+ Next, go to you browser and enter:
+ https://localhost:19006
+ 
+ ### Create Datatypes
+Use the following DML on AsterixDB web console to create your data type. In the following we are creating the data type for small dataset from the paper.
+ 
+ drop dataverse small_dataset_dv if exists;
+ create dataverse small_dataset_dv;
+ USE small_dataset_dv;
+
+	CREATE TYPE small_datatype AS {
+		unique1: int,
+		unique2: int,
+		two: int,
+		four:int,
+		ten:int,
+		twenty:int,
+		onePercent:int,
+		tenPercent:int,
+		twentyPercent:int,
+		fiftyPercent: int,
+		unique3:int,
+		evenOnePercent:int,
+		oddOnePercent:int,
+		stringu1: string,
+		stringu2: string,
+		string4:string
+	};
+
+ ### Create Datasets
+    USE small_dataset_dv;
+    drop dataset small_dataset if exists;
+    CREATE DATASET small_dataset(small_datatype)
+    PRIMARY KEY unique2
+    with {\"storage-block-compression\": {\"scheme\": \"none\"}};
+ 
+ ### Create Data Feed
+
+     create feed  small_dataset_feed  with {
+     "adapter-name": "socket_adapter",
+     "sockets": ""node_controler_ip":"10001"",
+     "address-type": "IP",
+     "type-name": "small_datatype",
+     "format": "adm"
+     };
+ 
+ ### Start Data Feed
+ 
+     USE small_dataset_dv;
+     connect feed small_dataset_feed to dataset small_dataset;
+     start feed small_dataset_feed;
+ 
+ 
+ ### Generate Data
+ 
+ 
+ Use the JSON Wisconsin Data Generator to generate 1GB of data size by executing:
+      java -jar $JSONWISCDATAGEN_HOME/target/wisconsin-datagen.jar writer=asterixdb workload=default.json  cardinality=99999999 filesize=1024
+ Please make sure that the length of the records is the same as record size in the paper. If not, you can adjust it by increasing the length of the string attributes.
+ This is the setup for the small dataset. For 1Large_Coexit and 3Large_Coexist experiments please use Advanced.json workload and adjust the fields to match with the description provided in the paper.
+ 
+ ### Stop the data feed
+ 
+      USE small_dataset_dv; 
+
+      stop feed small_dataset_feed; 
+      drop feed small_dataset_feed;
+ 
+ Repeat the same steps to create the probe dataset based on the description provided in the paper.
+ 
+ ## Sample Query
+ To use the hints mentioned above, you can follow the following sample query's structure:
+ 
+     USE small_dataset_dv;
+     set `compiler.joinmemory` "1200MB";
+     select * from small_dataset_ds1 ds1, small_dataset_ds2 ds2 where ds1.unique2 /*+ build-size 186, data-insertion NEXTFIT */=ds2.unique2 limit 1;
 
 ## Build from source
 
